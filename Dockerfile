@@ -1,8 +1,8 @@
 #
 # Dockerfile - OpenResty Proxy
 #
-FROM rehos/openresty-docker
-MAINTAINER Robin Hos <robin.hos@gmail.com>
+FROM everdune/openresty-docker
+MAINTAINER Robin Hos @ Everdune Mobile
 
 # Nginx proxy configuration
 ADD conf/mime.types /etc/nginx/conf.d/mime.types
